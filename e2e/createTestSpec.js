@@ -14,11 +14,11 @@ const __dirname = path.dirname(__filename);
  *   - status (ready, in-progress, blocked)
  *   - steps (placeholder actions)
  */
-function createTestSpec() {
+function createTestSpec(categoryFilter) {
   const count = 300;
   const specs = [];
 
-  const categories = ['UI/UX', 'Functional', 'Unit', 'Validation'];
+  const categories = categoryFilter ? [categoryFilter] : ['Selenium Web', 'Appium Android', 'Unit API', 'Validation', 'Deployment', 'Load Performance'];
   const statusOptions = ['ready', 'in-progress', 'blocked'];
 
   const perCat = Math.floor(count / categories.length);
@@ -30,7 +30,7 @@ function createTestSpec() {
     if (extra > 0) extra--;
     for (let i = 0; i < catCount; i++) {
       const id = `TC${String(idx).padStart(3, '0')}`;
-      const description = `Auto-generated ${category} test case ${idx}`;
+      const description = `${category} Test Case ${idx}: Verification of Digital Chit Feature Module ${idx}`;
       const status = statusOptions[idx % statusOptions.length];
       specs.push({
         id,
@@ -48,7 +48,8 @@ function createTestSpec() {
 
   const outPath = path.join(__dirname, 'testSpec.json');
   fs.writeFileSync(outPath, JSON.stringify(specs, null, 2), 'utf-8');
-  console.log('Created testSpec.json with', count, 'tests');
+  console.log('Created testSpec.json with', count, 'tests for category:', categoryFilter || 'All');
 }
 
-createTestSpec();
+const filterArg = process.argv[2];
+createTestSpec(filterArg);

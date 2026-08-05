@@ -19,12 +19,15 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: |
-          rm -rf e2e/specs
-          npm run e2e || true
+          rm -rf e2e/specs e2e/report/*.xlsx
+          node e2e/createTestSpec.js "Selenium Website"
+          node e2e/generateTests.js
+          npx mocha "e2e/specs/TC*.cjs" --timeout 60000 --reporter json --reporter-options output=./e2e/report/results.json || true
+          node e2e/report/generateReport.js "Selenium_Website_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
           name: selenium-web-report
-          path: e2e/report/*.xlsx
+          path: e2e/report/Selenium_Website_Test_Report_*.xlsx
 
   appium-tests:
     name: "📱 Appium — Android Tests (300)"
@@ -37,12 +40,15 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: |
-          rm -rf e2e/specs
-          npm run e2e || true
+          rm -rf e2e/specs e2e/report/*.xlsx
+          node e2e/createTestSpec.js "Appium Android Mobile"
+          node e2e/generateTests.js
+          npx mocha "e2e/specs/TC*.cjs" --timeout 60000 --reporter json --reporter-options output=./e2e/report/results.json || true
+          node e2e/report/generateReport.js "Appium_Android_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
           name: appium-android-report
-          path: e2e/report/*.xlsx
+          path: e2e/report/Appium_Android_Test_Report_*.xlsx
 
   unit-tests:
     name: "🧪 Unit Tests — API (300)"
@@ -55,12 +61,15 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: |
-          rm -rf e2e/specs
-          npm run e2e || true
+          rm -rf e2e/specs e2e/report/*.xlsx
+          node e2e/createTestSpec.js "Unit API Endpoint"
+          node e2e/generateTests.js
+          npx mocha "e2e/specs/TC*.cjs" --timeout 60000 --reporter json --reporter-options output=./e2e/report/results.json || true
+          node e2e/report/generateReport.js "Unit_API_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
           name: unit-test-report
-          path: e2e/report/*.xlsx
+          path: e2e/report/Unit_API_Test_Report_*.xlsx
 
   validation-tests:
     name: "✅ Validation Tests (300)"
@@ -73,12 +82,15 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: |
-          rm -rf e2e/specs
-          npm run e2e || true
+          rm -rf e2e/specs e2e/report/*.xlsx
+          node e2e/createTestSpec.js "Validation Business Rule"
+          node e2e/generateTests.js
+          npx mocha "e2e/specs/TC*.cjs" --timeout 60000 --reporter json --reporter-options output=./e2e/report/results.json || true
+          node e2e/report/generateReport.js "Validation_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
           name: validation-test-report
-          path: e2e/report/*.xlsx
+          path: e2e/report/Validation_Test_Report_*.xlsx
 
   deployment-status:
     name: "🚀 Deployment Status (300)"
@@ -91,12 +103,15 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: |
-          rm -rf e2e/specs
-          npm run e2e || true
+          rm -rf e2e/specs e2e/report/*.xlsx
+          node e2e/createTestSpec.js "Deployment Status Check"
+          node e2e/generateTests.js
+          npx mocha "e2e/specs/TC*.cjs" --timeout 60000 --reporter json --reporter-options output=./e2e/report/results.json || true
+          node e2e/report/generateReport.js "Deployment_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
           name: deployment-test-report
-          path: e2e/report/*.xlsx
+          path: e2e/report/Deployment_Test_Report_*.xlsx
 
   load-testing:
     name: "📊 Load Testing — Performance (300)"
@@ -109,12 +124,15 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: |
-          rm -rf e2e/specs
-          npm run e2e || true
+          rm -rf e2e/specs e2e/report/*.xlsx
+          node e2e/createTestSpec.js "Load Performance Stress"
+          node e2e/generateTests.js
+          npx mocha "e2e/specs/TC*.cjs" --timeout 60000 --reporter json --reporter-options output=./e2e/report/results.json || true
+          node e2e/report/generateReport.js "Load_Performance_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
           name: load-test-report
-          path: e2e/report/*.xlsx
+          path: e2e/report/Load_Performance_Test_Report_*.xlsx
 
   compile-master-report:
     name: "📑 Compile Master Report & Deploy"
@@ -128,10 +146,13 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: |
-          rm -rf e2e/specs
-          npm run e2e || true
+          rm -rf e2e/specs e2e/report/*.xlsx
+          node e2e/createTestSpec.js "Full E2E Master Suite"
+          node e2e/generateTests.js
+          npx mocha "e2e/specs/TC*.cjs" --timeout 60000 --reporter json --reporter-options output=./e2e/report/results.json || true
+          node e2e/report/generateReport.js "Full_Master_E2E_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
           name: full-e2e-report
-          path: e2e/report/*.xlsx
+          path: e2e/report/Full_Master_E2E_Test_Report_*.xlsx
 

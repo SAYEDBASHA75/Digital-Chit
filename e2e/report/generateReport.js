@@ -9,9 +9,9 @@ const __dirname = path.dirname(__filename);
 
 // Paths
 const resultsPath = path.resolve(__dirname, 'results.json');
-// Use a timestamped filename to avoid conflicts with an opened file
+const reportPrefix = process.argv[2] || 'E2E_Test_Report';
 const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-const outPath = path.resolve(__dirname, `E2E_Test_Report_${timestamp}.xlsx`);
+const outPath = path.resolve(__dirname, `${reportPrefix}_${timestamp}.xlsx`);
 
 if (!fs.existsSync(resultsPath)) {
   console.error('results.json not found at', resultsPath);

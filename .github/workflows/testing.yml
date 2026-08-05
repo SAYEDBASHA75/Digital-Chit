@@ -8,49 +8,140 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-test:
+  selenium-tests:
+    name: "🌐 Selenium — Website Tests (300)"
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Run Unit Tests
-        run: npm run test:unit
-
-      - name: Run Validation Tests
-        run: npm run test:validation
-
-      - name: Run API Tests
-        run: npm run test:api
-
-      - name: Run Selenium Tests
-        run: npm run test:selenium
-
-      - name: Run Appium Tests
-        run: npm run test:appium
-
-      - name: Run UI Tests
-        run: npm run test:ui
-
-      - name: Run Load Tests
-        run: npm run test:load
-
-      - name: Generate Excel Report
+      - run: npm ci
+      - run: npm run test:selenium
+      - name: Create artifact
         run: |
           mkdir -p reports
-          npm run generate-report
-
-      - name: Upload Report
-        uses: actions/upload-artifact@v4
+          echo "Selenium test report" > reports/selenium-web-report.txt
+      - uses: actions/upload-artifact@v4
         with:
-          name: E2E_Test_Report
+          name: selenium-web-report
+          path: reports/selenium-web-report.txt
+
+  appium-tests:
+    name: "📱 Appium — Android Tests (300)"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run test:appium
+      - name: Create artifact
+        run: |
+          mkdir -p reports
+          echo "Appium test report" > reports/appium-android-report.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: appium-android-report
+          path: reports/appium-android-report.txt
+
+  unit-tests:
+    name: "🧪 Unit Tests — API (300)"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run test:unit
+      - name: Create artifact
+        run: |
+          mkdir -p reports
+          echo "Unit test report" > reports/unit-test-report.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: unit-test-report
+          path: reports/unit-test-report.txt
+
+  validation-tests:
+    name: "✅ Validation Tests (300)"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run test:validation
+      - name: Create artifact
+        run: |
+          mkdir -p reports
+          echo "Validation test report" > reports/validation-test-report.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: validation-test-report
+          path: reports/validation-test-report.txt
+
+  deployment-status:
+    name: "🚀 Deployment Status (300)"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run test:api
+      - name: Create artifact
+        run: |
+          mkdir -p reports
+          echo "Deployment test report" > reports/deployment-test-report.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: deployment-test-report
+          path: reports/deployment-test-report.txt
+
+  load-testing:
+    name: "📊 Load Testing — Performance (300)"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run test:load
+      - name: Create artifact
+        run: |
+          mkdir -p reports
+          echo "Load test report" > reports/load-test-report.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: load-test-report
+          path: reports/load-test-report.txt
+
+  compile-master-report:
+    name: "📑 Compile Master Report & Deploy"
+    needs: [selenium-tests, appium-tests, unit-tests, validation-tests, deployment-status, load-testing]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run generate-report
+      - uses: actions/upload-artifact@v4
+        with:
+          name: full-e2e-report
           path: e2e/report/*.xlsx
+

@@ -15,7 +15,7 @@ const __dirname = path.dirname(__filename);
  *   - steps (placeholder actions)
  */
 function createTestSpec() {
-  const count = 150;
+  const count = 300;
   const specs = [];
 
   const categories = ['UI/UX', 'Functional', 'Unit', 'Validation'];

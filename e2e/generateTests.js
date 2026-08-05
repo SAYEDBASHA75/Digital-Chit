@@ -10,9 +10,10 @@ const __dirname = path.dirname(__filename);
  */
 function generateSpecs() {
   const specDir = path.join(__dirname, 'specs');
-  if (!fs.existsSync(specDir)) {
-    fs.mkdirSync(specDir, { recursive: true });
+  if (fs.existsSync(specDir)) {
+    fs.rmSync(specDir, { recursive: true, force: true });
   }
+  fs.mkdirSync(specDir, { recursive: true });
   const specDataPath = path.join(__dirname, 'testSpec.json');
   if (!fs.existsSync(specDataPath)) {
     console.error('testSpec.json not found. Run createTestSpec.js first.');

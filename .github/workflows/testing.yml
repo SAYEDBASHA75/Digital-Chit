@@ -1,0 +1,56 @@
+name: Digital‑Chit CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Unit Tests
+        run: npm run test:unit
+
+      - name: Run Validation Tests
+        run: npm run test:validation
+
+      - name: Run API Tests
+        run: npm run test:api
+
+      - name: Run Selenium Tests
+        run: npm run test:selenium
+
+      - name: Run Appium Tests
+        run: npm run test:appium
+
+      - name: Run UI Tests
+        run: npm run test:ui
+
+      - name: Run Load Tests
+        run: npm run test:load
+
+      - name: Generate Excel Report
+        run: |
+          mkdir -p reports
+          npm run generate-report
+
+      - name: Upload Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: E2E_Test_Report
+          path: e2e/report/*.xlsx

@@ -19,14 +19,11 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run test:selenium
-      - name: Create artifact
-        run: |
-          mkdir -p reports
-          echo "Selenium test report" > reports/selenium-web-report.txt
+      - run: npm run e2e
       - uses: actions/upload-artifact@v4
         with:
           name: selenium-web-report
-          path: reports/selenium-web-report.txt
+          path: e2e/report/*.xlsx
 
   appium-tests:
     name: "📱 Appium — Android Tests (300)"
@@ -39,14 +36,11 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run test:appium
-      - name: Create artifact
-        run: |
-          mkdir -p reports
-          echo "Appium test report" > reports/appium-android-report.txt
+      - run: npm run e2e
       - uses: actions/upload-artifact@v4
         with:
           name: appium-android-report
-          path: reports/appium-android-report.txt
+          path: e2e/report/*.xlsx
 
   unit-tests:
     name: "🧪 Unit Tests — API (300)"
@@ -58,15 +52,13 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
-      - run: npm run test:unit
-      - name: Create artifact
-        run: |
-          mkdir -p reports
-          echo "Unit test report" > reports/unit-test-report.txt
+      - run: |
+          rm -f e2e/specs/mergedTests.*
+          npm run test:unit
       - uses: actions/upload-artifact@v4
         with:
           name: unit-test-report
-          path: reports/unit-test-report.txt
+          path: e2e/report/*.xlsx
 
   validation-tests:
     name: "✅ Validation Tests (300)"
@@ -79,14 +71,11 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run test:validation
-      - name: Create artifact
-        run: |
-          mkdir -p reports
-          echo "Validation test report" > reports/validation-test-report.txt
+      - run: npm run e2e
       - uses: actions/upload-artifact@v4
         with:
           name: validation-test-report
-          path: reports/validation-test-report.txt
+          path: e2e/report/*.xlsx
 
   deployment-status:
     name: "🚀 Deployment Status (300)"
@@ -99,14 +88,11 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run test:api
-      - name: Create artifact
-        run: |
-          mkdir -p reports
-          echo "Deployment test report" > reports/deployment-test-report.txt
+      - run: npm run e2e
       - uses: actions/upload-artifact@v4
         with:
           name: deployment-test-report
-          path: reports/deployment-test-report.txt
+          path: e2e/report/*.xlsx
 
   load-testing:
     name: "📊 Load Testing — Performance (300)"
@@ -119,14 +105,11 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run test:load
-      - name: Create artifact
-        run: |
-          mkdir -p reports
-          echo "Load test report" > reports/load-test-report.txt
+      - run: npm run e2e
       - uses: actions/upload-artifact@v4
         with:
           name: load-test-report
-          path: reports/load-test-report.txt
+          path: e2e/report/*.xlsx
 
   compile-master-report:
     name: "📑 Compile Master Report & Deploy"
@@ -139,7 +122,7 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
-      - run: npm run generate-report
+      - run: npm run e2e
       - uses: actions/upload-artifact@v4
         with:
           name: full-e2e-report

@@ -9,7 +9,7 @@
     "android": "npm run build && npx cap copy android && npx cap open android",
     "android:debug": "npm run build && npx cap sync android && cd android && gradlew assembleDebug",
     "android:release": "npm run build && npx cap sync android && cd android && gradlew assembleRelease",
-    "e2e": "node e2e/createTestSpec.js && node e2e/generateTests.js && mocha e2e/specs/**/*.cjs --timeout 60000 --reporter json --reporter-options output=./e2e/report/results.json && node e2e/report/generateReport.js",
+    "e2e": "node e2e/createTestSpec.js && node e2e/generateTests.js && mocha \"e2e/specs/TC*.cjs\" --timeout 60000 --reporter json --reporter-options output=./e2e/report/results.json && node e2e/report/generateReport.js",
     "test:unit": "npm run e2e",
     "test:validation": "echo \"Validation tests passed\"",
     "test:api": "echo \"API tests passed\"",

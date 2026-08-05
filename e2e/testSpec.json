@@ -1,0 +1,4202 @@
+[
+  {
+    "id": "TC001",
+    "description": "Auto-generated test case 1",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC002",
+    "description": "Auto-generated test case 2",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC003",
+    "description": "Auto-generated test case 3",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC004",
+    "description": "Auto-generated test case 4",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC005",
+    "description": "Auto-generated test case 5",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC006",
+    "description": "Auto-generated test case 6",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC007",
+    "description": "Auto-generated test case 7",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC008",
+    "description": "Auto-generated test case 8",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC009",
+    "description": "Auto-generated test case 9",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC010",
+    "description": "Auto-generated test case 10",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC011",
+    "description": "Auto-generated test case 11",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC012",
+    "description": "Auto-generated test case 12",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC013",
+    "description": "Auto-generated test case 13",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC014",
+    "description": "Auto-generated test case 14",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC015",
+    "description": "Auto-generated test case 15",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC016",
+    "description": "Auto-generated test case 16",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC017",
+    "description": "Auto-generated test case 17",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC018",
+    "description": "Auto-generated test case 18",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC019",
+    "description": "Auto-generated test case 19",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC020",
+    "description": "Auto-generated test case 20",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC021",
+    "description": "Auto-generated test case 21",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC022",
+    "description": "Auto-generated test case 22",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC023",
+    "description": "Auto-generated test case 23",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC024",
+    "description": "Auto-generated test case 24",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC025",
+    "description": "Auto-generated test case 25",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC026",
+    "description": "Auto-generated test case 26",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC027",
+    "description": "Auto-generated test case 27",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC028",
+    "description": "Auto-generated test case 28",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC029",
+    "description": "Auto-generated test case 29",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC030",
+    "description": "Auto-generated test case 30",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC031",
+    "description": "Auto-generated test case 31",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC032",
+    "description": "Auto-generated test case 32",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC033",
+    "description": "Auto-generated test case 33",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC034",
+    "description": "Auto-generated test case 34",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC035",
+    "description": "Auto-generated test case 35",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC036",
+    "description": "Auto-generated test case 36",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC037",
+    "description": "Auto-generated test case 37",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC038",
+    "description": "Auto-generated test case 38",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC039",
+    "description": "Auto-generated test case 39",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC040",
+    "description": "Auto-generated test case 40",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC041",
+    "description": "Auto-generated test case 41",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC042",
+    "description": "Auto-generated test case 42",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC043",
+    "description": "Auto-generated test case 43",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC044",
+    "description": "Auto-generated test case 44",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC045",
+    "description": "Auto-generated test case 45",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC046",
+    "description": "Auto-generated test case 46",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC047",
+    "description": "Auto-generated test case 47",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC048",
+    "description": "Auto-generated test case 48",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC049",
+    "description": "Auto-generated test case 49",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC050",
+    "description": "Auto-generated test case 50",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC051",
+    "description": "Auto-generated test case 51",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC052",
+    "description": "Auto-generated test case 52",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC053",
+    "description": "Auto-generated test case 53",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC054",
+    "description": "Auto-generated test case 54",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC055",
+    "description": "Auto-generated test case 55",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC056",
+    "description": "Auto-generated test case 56",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC057",
+    "description": "Auto-generated test case 57",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC058",
+    "description": "Auto-generated test case 58",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC059",
+    "description": "Auto-generated test case 59",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC060",
+    "description": "Auto-generated test case 60",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC061",
+    "description": "Auto-generated test case 61",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC062",
+    "description": "Auto-generated test case 62",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC063",
+    "description": "Auto-generated test case 63",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC064",
+    "description": "Auto-generated test case 64",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC065",
+    "description": "Auto-generated test case 65",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC066",
+    "description": "Auto-generated test case 66",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC067",
+    "description": "Auto-generated test case 67",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC068",
+    "description": "Auto-generated test case 68",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC069",
+    "description": "Auto-generated test case 69",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC070",
+    "description": "Auto-generated test case 70",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC071",
+    "description": "Auto-generated test case 71",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC072",
+    "description": "Auto-generated test case 72",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC073",
+    "description": "Auto-generated test case 73",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC074",
+    "description": "Auto-generated test case 74",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC075",
+    "description": "Auto-generated test case 75",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC076",
+    "description": "Auto-generated test case 76",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC077",
+    "description": "Auto-generated test case 77",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC078",
+    "description": "Auto-generated test case 78",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC079",
+    "description": "Auto-generated test case 79",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC080",
+    "description": "Auto-generated test case 80",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC081",
+    "description": "Auto-generated test case 81",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC082",
+    "description": "Auto-generated test case 82",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC083",
+    "description": "Auto-generated test case 83",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC084",
+    "description": "Auto-generated test case 84",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC085",
+    "description": "Auto-generated test case 85",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC086",
+    "description": "Auto-generated test case 86",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC087",
+    "description": "Auto-generated test case 87",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC088",
+    "description": "Auto-generated test case 88",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC089",
+    "description": "Auto-generated test case 89",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC090",
+    "description": "Auto-generated test case 90",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC091",
+    "description": "Auto-generated test case 91",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC092",
+    "description": "Auto-generated test case 92",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC093",
+    "description": "Auto-generated test case 93",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC094",
+    "description": "Auto-generated test case 94",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC095",
+    "description": "Auto-generated test case 95",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC096",
+    "description": "Auto-generated test case 96",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC097",
+    "description": "Auto-generated test case 97",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC098",
+    "description": "Auto-generated test case 98",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC099",
+    "description": "Auto-generated test case 99",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC100",
+    "description": "Auto-generated test case 100",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC101",
+    "description": "Auto-generated test case 101",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC102",
+    "description": "Auto-generated test case 102",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC103",
+    "description": "Auto-generated test case 103",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC104",
+    "description": "Auto-generated test case 104",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC105",
+    "description": "Auto-generated test case 105",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC106",
+    "description": "Auto-generated test case 106",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC107",
+    "description": "Auto-generated test case 107",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC108",
+    "description": "Auto-generated test case 108",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC109",
+    "description": "Auto-generated test case 109",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC110",
+    "description": "Auto-generated test case 110",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC111",
+    "description": "Auto-generated test case 111",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC112",
+    "description": "Auto-generated test case 112",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC113",
+    "description": "Auto-generated test case 113",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC114",
+    "description": "Auto-generated test case 114",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC115",
+    "description": "Auto-generated test case 115",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC116",
+    "description": "Auto-generated test case 116",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC117",
+    "description": "Auto-generated test case 117",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC118",
+    "description": "Auto-generated test case 118",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC119",
+    "description": "Auto-generated test case 119",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC120",
+    "description": "Auto-generated test case 120",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC121",
+    "description": "Auto-generated test case 121",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC122",
+    "description": "Auto-generated test case 122",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC123",
+    "description": "Auto-generated test case 123",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC124",
+    "description": "Auto-generated test case 124",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC125",
+    "description": "Auto-generated test case 125",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC126",
+    "description": "Auto-generated test case 126",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC127",
+    "description": "Auto-generated test case 127",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC128",
+    "description": "Auto-generated test case 128",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC129",
+    "description": "Auto-generated test case 129",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC130",
+    "description": "Auto-generated test case 130",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC131",
+    "description": "Auto-generated test case 131",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC132",
+    "description": "Auto-generated test case 132",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC133",
+    "description": "Auto-generated test case 133",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC134",
+    "description": "Auto-generated test case 134",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC135",
+    "description": "Auto-generated test case 135",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC136",
+    "description": "Auto-generated test case 136",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC137",
+    "description": "Auto-generated test case 137",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC138",
+    "description": "Auto-generated test case 138",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC139",
+    "description": "Auto-generated test case 139",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC140",
+    "description": "Auto-generated test case 140",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC141",
+    "description": "Auto-generated test case 141",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC142",
+    "description": "Auto-generated test case 142",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC143",
+    "description": "Auto-generated test case 143",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC144",
+    "description": "Auto-generated test case 144",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC145",
+    "description": "Auto-generated test case 145",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC146",
+    "description": "Auto-generated test case 146",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC147",
+    "description": "Auto-generated test case 147",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC148",
+    "description": "Auto-generated test case 148",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC149",
+    "description": "Auto-generated test case 149",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC150",
+    "description": "Auto-generated test case 150",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC151",
+    "description": "Auto-generated test case 151",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC152",
+    "description": "Auto-generated test case 152",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC153",
+    "description": "Auto-generated test case 153",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC154",
+    "description": "Auto-generated test case 154",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC155",
+    "description": "Auto-generated test case 155",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC156",
+    "description": "Auto-generated test case 156",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC157",
+    "description": "Auto-generated test case 157",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC158",
+    "description": "Auto-generated test case 158",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC159",
+    "description": "Auto-generated test case 159",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC160",
+    "description": "Auto-generated test case 160",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC161",
+    "description": "Auto-generated test case 161",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC162",
+    "description": "Auto-generated test case 162",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC163",
+    "description": "Auto-generated test case 163",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC164",
+    "description": "Auto-generated test case 164",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC165",
+    "description": "Auto-generated test case 165",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC166",
+    "description": "Auto-generated test case 166",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC167",
+    "description": "Auto-generated test case 167",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC168",
+    "description": "Auto-generated test case 168",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC169",
+    "description": "Auto-generated test case 169",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC170",
+    "description": "Auto-generated test case 170",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC171",
+    "description": "Auto-generated test case 171",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC172",
+    "description": "Auto-generated test case 172",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC173",
+    "description": "Auto-generated test case 173",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC174",
+    "description": "Auto-generated test case 174",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC175",
+    "description": "Auto-generated test case 175",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC176",
+    "description": "Auto-generated test case 176",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC177",
+    "description": "Auto-generated test case 177",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC178",
+    "description": "Auto-generated test case 178",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC179",
+    "description": "Auto-generated test case 179",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC180",
+    "description": "Auto-generated test case 180",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC181",
+    "description": "Auto-generated test case 181",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC182",
+    "description": "Auto-generated test case 182",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC183",
+    "description": "Auto-generated test case 183",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC184",
+    "description": "Auto-generated test case 184",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC185",
+    "description": "Auto-generated test case 185",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC186",
+    "description": "Auto-generated test case 186",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC187",
+    "description": "Auto-generated test case 187",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC188",
+    "description": "Auto-generated test case 188",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC189",
+    "description": "Auto-generated test case 189",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC190",
+    "description": "Auto-generated test case 190",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC191",
+    "description": "Auto-generated test case 191",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC192",
+    "description": "Auto-generated test case 192",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC193",
+    "description": "Auto-generated test case 193",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC194",
+    "description": "Auto-generated test case 194",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC195",
+    "description": "Auto-generated test case 195",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC196",
+    "description": "Auto-generated test case 196",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC197",
+    "description": "Auto-generated test case 197",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC198",
+    "description": "Auto-generated test case 198",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC199",
+    "description": "Auto-generated test case 199",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC200",
+    "description": "Auto-generated test case 200",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC201",
+    "description": "Auto-generated test case 201",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC202",
+    "description": "Auto-generated test case 202",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC203",
+    "description": "Auto-generated test case 203",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC204",
+    "description": "Auto-generated test case 204",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC205",
+    "description": "Auto-generated test case 205",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC206",
+    "description": "Auto-generated test case 206",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC207",
+    "description": "Auto-generated test case 207",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC208",
+    "description": "Auto-generated test case 208",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC209",
+    "description": "Auto-generated test case 209",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC210",
+    "description": "Auto-generated test case 210",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC211",
+    "description": "Auto-generated test case 211",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC212",
+    "description": "Auto-generated test case 212",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC213",
+    "description": "Auto-generated test case 213",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC214",
+    "description": "Auto-generated test case 214",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC215",
+    "description": "Auto-generated test case 215",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC216",
+    "description": "Auto-generated test case 216",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC217",
+    "description": "Auto-generated test case 217",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC218",
+    "description": "Auto-generated test case 218",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC219",
+    "description": "Auto-generated test case 219",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC220",
+    "description": "Auto-generated test case 220",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC221",
+    "description": "Auto-generated test case 221",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC222",
+    "description": "Auto-generated test case 222",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC223",
+    "description": "Auto-generated test case 223",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC224",
+    "description": "Auto-generated test case 224",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC225",
+    "description": "Auto-generated test case 225",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC226",
+    "description": "Auto-generated test case 226",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC227",
+    "description": "Auto-generated test case 227",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC228",
+    "description": "Auto-generated test case 228",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC229",
+    "description": "Auto-generated test case 229",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC230",
+    "description": "Auto-generated test case 230",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC231",
+    "description": "Auto-generated test case 231",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC232",
+    "description": "Auto-generated test case 232",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC233",
+    "description": "Auto-generated test case 233",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC234",
+    "description": "Auto-generated test case 234",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC235",
+    "description": "Auto-generated test case 235",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC236",
+    "description": "Auto-generated test case 236",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC237",
+    "description": "Auto-generated test case 237",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC238",
+    "description": "Auto-generated test case 238",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC239",
+    "description": "Auto-generated test case 239",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC240",
+    "description": "Auto-generated test case 240",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC241",
+    "description": "Auto-generated test case 241",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC242",
+    "description": "Auto-generated test case 242",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC243",
+    "description": "Auto-generated test case 243",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC244",
+    "description": "Auto-generated test case 244",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC245",
+    "description": "Auto-generated test case 245",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC246",
+    "description": "Auto-generated test case 246",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC247",
+    "description": "Auto-generated test case 247",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC248",
+    "description": "Auto-generated test case 248",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC249",
+    "description": "Auto-generated test case 249",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC250",
+    "description": "Auto-generated test case 250",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC251",
+    "description": "Auto-generated test case 251",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC252",
+    "description": "Auto-generated test case 252",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC253",
+    "description": "Auto-generated test case 253",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC254",
+    "description": "Auto-generated test case 254",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC255",
+    "description": "Auto-generated test case 255",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC256",
+    "description": "Auto-generated test case 256",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC257",
+    "description": "Auto-generated test case 257",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC258",
+    "description": "Auto-generated test case 258",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC259",
+    "description": "Auto-generated test case 259",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC260",
+    "description": "Auto-generated test case 260",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC261",
+    "description": "Auto-generated test case 261",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC262",
+    "description": "Auto-generated test case 262",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC263",
+    "description": "Auto-generated test case 263",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC264",
+    "description": "Auto-generated test case 264",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC265",
+    "description": "Auto-generated test case 265",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC266",
+    "description": "Auto-generated test case 266",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC267",
+    "description": "Auto-generated test case 267",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC268",
+    "description": "Auto-generated test case 268",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC269",
+    "description": "Auto-generated test case 269",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC270",
+    "description": "Auto-generated test case 270",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC271",
+    "description": "Auto-generated test case 271",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC272",
+    "description": "Auto-generated test case 272",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC273",
+    "description": "Auto-generated test case 273",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC274",
+    "description": "Auto-generated test case 274",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC275",
+    "description": "Auto-generated test case 275",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC276",
+    "description": "Auto-generated test case 276",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC277",
+    "description": "Auto-generated test case 277",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC278",
+    "description": "Auto-generated test case 278",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC279",
+    "description": "Auto-generated test case 279",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC280",
+    "description": "Auto-generated test case 280",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC281",
+    "description": "Auto-generated test case 281",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC282",
+    "description": "Auto-generated test case 282",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC283",
+    "description": "Auto-generated test case 283",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC284",
+    "description": "Auto-generated test case 284",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC285",
+    "description": "Auto-generated test case 285",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC286",
+    "description": "Auto-generated test case 286",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC287",
+    "description": "Auto-generated test case 287",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC288",
+    "description": "Auto-generated test case 288",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC289",
+    "description": "Auto-generated test case 289",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC290",
+    "description": "Auto-generated test case 290",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC291",
+    "description": "Auto-generated test case 291",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC292",
+    "description": "Auto-generated test case 292",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC293",
+    "description": "Auto-generated test case 293",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC294",
+    "description": "Auto-generated test case 294",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC295",
+    "description": "Auto-generated test case 295",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC296",
+    "description": "Auto-generated test case 296",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC297",
+    "description": "Auto-generated test case 297",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC298",
+    "description": "Auto-generated test case 298",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC299",
+    "description": "Auto-generated test case 299",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  },
+  {
+    "id": "TC300",
+    "description": "Auto-generated test case 300",
+    "steps": [
+      {
+        "action": "navigate",
+        "url": "http://localhost:3000"
+      },
+      {
+        "action": "checkTitle",
+        "expected": "Digital Chit Fund"
+      }
+    ]
+  }
+]

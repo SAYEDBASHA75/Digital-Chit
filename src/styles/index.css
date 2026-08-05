@@ -1,0 +1,33 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* ── Mobile full-screen & safe area ──────────────────────────────────────── */
+html, body, #root {
+  height: 100%;
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+/* Use dynamic viewport height so browser chrome doesn't overlap content */
+.app-shell {
+  height: 100dvh;
+  max-height: 100dvh;
+}
+
+/* Bottom navigation sits above the home indicator on iPhone */
+.bottom-nav {
+  padding-bottom: env(safe-area-inset-bottom);
+  height: calc(3.75rem + env(safe-area-inset-bottom));
+}
+
+/* Main content avoids the bottom nav + home indicator */
+.main-content-mobile {
+  padding-bottom: calc(3.75rem + env(safe-area-inset-bottom));
+}
+
+/* Status bar / notch padding at top */
+.safe-top {
+  padding-top: env(safe-area-inset-top);
+}

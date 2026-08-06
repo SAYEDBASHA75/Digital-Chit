@@ -107,16 +107,19 @@ function createTestSpec(categoryFilter) {
     for (let i = 0; i < catCount; i++) {
       const id = `TC${String(idx).padStart(3, '0')}`;
       
-      // Combinatorial selection using idx (ensures 100% uniqueness of triples)
-      const moduleIndex = (idx - 1) % modules.length;
-      const scenarioIndex = Math.floor((idx - 1) / modules.length) % scenarios.length;
-      const contextIndex = Math.floor((idx - 1) / (modules.length * scenarios.length)) % contexts.length;
+      // Category-based offset so each suite gets DIFFERENT module/scenario/context combos
+      const catOffset = [...category].reduce((sum, ch) => sum + ch.charCodeAt(0), 0);
+      
+      // Combinatorial selection using idx + catOffset (ensures uniqueness ACROSS suites)
+      const moduleIndex = (idx - 1 + catOffset) % modules.length;
+      const scenarioIndex = Math.floor((idx - 1 + catOffset) / modules.length) % scenarios.length;
+      const contextIndex = Math.floor((idx - 1 + catOffset) / (modules.length * scenarios.length)) % contexts.length;
       
       const moduleObj = modules[moduleIndex];
       const scenarioObj = scenarios[scenarioIndex];
       const contextObj = contexts[contextIndex];
       
-      const description = `${scenarioObj.text} ${moduleObj.label} ${contextObj.detail} (Test Case #${idx})`;
+      const description = `${category} ${id} — ${scenarioObj.text} ${moduleObj.label} ${contextObj.detail}`;
       const status = statusOptions[idx % statusOptions.length];
       
       const steps = getStepsForTestCase(category, moduleObj.name, scenarioObj.type, contextObj.value);

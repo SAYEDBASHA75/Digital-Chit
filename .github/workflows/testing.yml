@@ -27,8 +27,8 @@ jobs:
           node e2e/report/generateReport.js "Selenium_Website_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
-          name: selenium-web-report
-          path: e2e/report/Selenium_Website_Test_Report_*.xlsx
+          name: Selenium_Website_Test_Report
+          path: e2e/report/Selenium_Website_Test_Report.xlsx
 
   appium-tests:
     name: "📱 Appium — Android Tests (300)"
@@ -49,8 +49,8 @@ jobs:
           node e2e/report/generateReport.js "Appium_Android_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
-          name: appium-android-report
-          path: e2e/report/Appium_Android_Test_Report_*.xlsx
+          name: Appium_Android_Test_Report
+          path: e2e/report/Appium_Android_Test_Report.xlsx
 
   unit-tests:
     name: "🧪 Unit Tests — API (300)"
@@ -71,8 +71,8 @@ jobs:
           node e2e/report/generateReport.js "Unit_API_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
-          name: unit-test-report
-          path: e2e/report/Unit_API_Test_Report_*.xlsx
+          name: Unit_API_Test_Report
+          path: e2e/report/Unit_API_Test_Report.xlsx
 
   validation-tests:
     name: "✅ Validation Tests (300)"
@@ -93,8 +93,8 @@ jobs:
           node e2e/report/generateReport.js "Validation_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
-          name: validation-test-report
-          path: e2e/report/Validation_Test_Report_*.xlsx
+          name: Validation_Test_Report
+          path: e2e/report/Validation_Test_Report.xlsx
 
   deployment-status:
     name: "🚀 Deployment Status (300)"
@@ -115,8 +115,8 @@ jobs:
           node e2e/report/generateReport.js "Deployment_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
-          name: deployment-test-report
-          path: e2e/report/Deployment_Test_Report_*.xlsx
+          name: Deployment_Test_Report
+          path: e2e/report/Deployment_Test_Report.xlsx
 
   load-testing:
     name: "📊 Load Testing — Performance (300)"
@@ -137,8 +137,8 @@ jobs:
           node e2e/report/generateReport.js "Load_Performance_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
-          name: load-test-report
-          path: e2e/report/Load_Performance_Test_Report_*.xlsx
+          name: Load_Performance_Test_Report
+          path: e2e/report/Load_Performance_Test_Report.xlsx
 
   business-rule-tests:
     name: "✅ Business Rule Tests (300)"
@@ -159,8 +159,8 @@ jobs:
           node e2e/report/generateReport.js "Business_Rule_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
-          name: business-rule-report
-          path: e2e/report/Business_Rule_Test_Report_*.xlsx
+          name: Business_Rule_Test_Report
+          path: e2e/report/Business_Rule_Test_Report.xlsx
 
   compile-master-report:
     name: "📑 Compile Master Report & Deploy"
@@ -182,5 +182,5 @@ jobs:
           node e2e/report/generateReport.js "Full_Master_E2E_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
-          name: master-e2e-report
-          path: e2e/report/Full_Master_E2E_Test_Report_*.xlsx
+          name: Full_Master_E2E_Test_Report
+          path: e2e/report/Full_Master_E2E_Test_Report.xlsx

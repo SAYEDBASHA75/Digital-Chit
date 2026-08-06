@@ -90,6 +90,20 @@ export function LoginPage({ onLoginSuccess }: LoginPageProps) {
   const [identifier, setIdentifier] = useState("");
   const [password, setPassword] = useState("");
   const [showPwd, setShowPwd] = useState(false);
+  const [rememberMe, setRememberMe] = useState(false);
+
+  // Load remembered credentials on mount
+  useEffect(() => {
+    const savedIdentifier = localStorage.getItem("remembered_identifier");
+    const savedPassword = localStorage.getItem("remembered_password");
+    if (savedIdentifier) {
+      setIdentifier(savedIdentifier);
+      setRememberMe(true);
+    }
+    if (savedPassword) {
+      setPassword(savedPassword);
+    }
+  }, []);
 
   // Detect input type on the fly
   const detectedType = (v: string): "email" | "phone" =>
@@ -145,6 +159,16 @@ export function LoginPage({ onLoginSuccess }: LoginPageProps) {
       localStorage.setItem("chitfund_user", JSON.stringify(data.user));
       localStorage.setItem("chitfund_token", data.session.access_token);
       localStorage.setItem("chitfund_role", role);
+
+      // Save or clear login details based on checkbox state
+      if (rememberMe) {
+        localStorage.setItem("remembered_identifier", val);
+        localStorage.setItem("remembered_password", password);
+      } else {
+        localStorage.removeItem("remembered_identifier");
+        localStorage.removeItem("remembered_password");
+      }
+
       onLoginSuccess(data.user, data.session.access_token, role, data.lastLogin);
     } catch {
       setError("Network error. Please check your connection.");
@@ -283,8 +307,8 @@ export function LoginPage({ onLoginSuccess }: LoginPageProps) {
                       ? <Phone className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
                       : <Mail className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />}
                     <Input
-                      type="text"
-                      inputMode={detectedType(identifier) === "phone" ? "numeric" : "email"}
+                      type="email"
+                      inputMode="email"
                       placeholder="your@email.com or 9876543210"
                       value={identifier}
                       onChange={(e) => { setIdentifier(e.target.value); clearMessages(); }}
@@ -325,12 +349,24 @@ export function LoginPage({ onLoginSuccess }: LoginPageProps) {
                   </div>
                 </div>
 
-                <button onClick={() => {
-                  setView("forgot"); clearMessages();
-                  if (detectedType(identifier) === "email") setForgotEmail(identifier);
-                }} className="text-sm text-primary hover:underline">
-                  Forgot Password?
-                </button>
+                <div className="flex items-center justify-between flex-wrap gap-2 py-1">
+                  <label className="flex items-center gap-2 cursor-pointer select-none">
+                    <input
+                      type="checkbox"
+                      checked={rememberMe}
+                      onChange={(e) => setRememberMe(e.target.checked)}
+                      className="rounded border-border text-primary focus:ring-primary size-4"
+                    />
+                    <span className="text-sm text-muted-foreground">Save login details</span>
+                  </label>
+
+                  <button onClick={() => {
+                    setView("forgot"); clearMessages();
+                    if (detectedType(identifier) === "email") setForgotEmail(identifier);
+                  }} className="text-sm text-primary hover:underline">
+                    Forgot Password?
+                  </button>
+                </div>
 
                 {error && <ErrorAlert>{error}</ErrorAlert>}
 

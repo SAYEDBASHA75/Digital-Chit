@@ -4,7 +4,7 @@ android {
     namespace = "com.example.digitalchitfund"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.example.digitalchitfund"
+        applicationId "com.example.digitalchitfundapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -58,16 +58,7 @@ export function Sidebar({ activePage, onNavigate, onLogout, user, userRole }: Si
     return true;
   });
 
-  // Inject viewport meta for proper mobile scaling
   useEffect(() => {
-    let meta = document.querySelector('meta[name="viewport"]') as HTMLMetaElement | null;
-    if (!meta) {
-      meta = document.createElement("meta");
-      meta.name = "viewport";
-      document.head.appendChild(meta);
-    }
-    meta.content = "width=1291, initial-scale=1, viewport-fit=cover, user-scalable=yes";
-
     let themeColor = document.querySelector('meta[name="theme-color"]') as HTMLMetaElement | null;
     if (!themeColor) {
       themeColor = document.createElement("meta");

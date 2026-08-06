@@ -1,4 +1,4 @@
-name: Digital‑Chit CI
+﻿name: Digital-Chit CI
 
 on:
   push:
@@ -18,7 +18,8 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
-      - run: |
+      - name: Run Selenium suite
+        run: |
           rm -rf e2e/specs e2e/report/*.xlsx
           node e2e/createTestSpec.js "Selenium Website"
           node e2e/generateTests.js
@@ -39,7 +40,8 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
-      - run: |
+      - name: Run Appium suite
+        run: |
           rm -rf e2e/specs e2e/report/*.xlsx
           node e2e/createTestSpec.js "Appium Android Mobile"
           node e2e/generateTests.js
@@ -60,7 +62,8 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
-      - run: |
+      - name: Run Unit suite
+        run: |
           rm -rf e2e/specs e2e/report/*.xlsx
           node e2e/createTestSpec.js "Unit API Endpoint"
           node e2e/generateTests.js
@@ -81,7 +84,8 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
-      - run: |
+      - name: Run Validation suite
+        run: |
           rm -rf e2e/specs e2e/report/*.xlsx
           node e2e/createTestSpec.js "Validation Business Rule"
           node e2e/generateTests.js
@@ -102,7 +106,8 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
-      - run: |
+      - name: Run Deployment suite
+        run: |
           rm -rf e2e/specs e2e/report/*.xlsx
           node e2e/createTestSpec.js "Deployment Status Check"
           node e2e/generateTests.js
@@ -123,7 +128,8 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
-      - run: |
+      - name: Run Load Testing suite
+        run: |
           rm -rf e2e/specs e2e/report/*.xlsx
           node e2e/createTestSpec.js "Load Performance Stress"
           node e2e/generateTests.js
@@ -134,9 +140,8 @@ jobs:
           name: load-test-report
           path: e2e/report/Load_Performance_Test_Report_*.xlsx
 
-  compile-master-report:
-    name: "📑 Compile Master Report & Deploy"
-    needs: [selenium-tests, appium-tests, unit-tests, validation-tests, deployment-status, load-testing]
+  business-rule-tests:
+    name: "✅ Business Rule Tests (300)"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -145,7 +150,31 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
-      - run: |
+      - name: Run Business Rule suite
+        run: |
+          rm -rf e2e/specs e2e/report/*.xlsx
+          node e2e/createTestSpec.js "Validation Business Rule"
+          node e2e/generateTests.js
+          npx mocha "e2e/specs/TC*.cjs" --timeout 60000 --reporter json --reporter-options output=./e2e/report/results.json || true
+          node e2e/report/generateReport.js "Business_Rule_Test_Report"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: business-rule-report
+          path: e2e/report/Business_Rule_Test_Report_*.xlsx
+
+  compile-master-report:
+    name: "📑 Compile Master Report & Deploy"
+    needs: [selenium-tests, appium-tests, unit-tests, validation-tests, deployment-status, load-testing, business-rule-tests]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - name: Generate master report
+        run: |
           rm -rf e2e/specs e2e/report/*.xlsx
           node e2e/createTestSpec.js "Full E2E Master Suite"
           node e2e/generateTests.js
@@ -153,6 +182,5 @@ jobs:
           node e2e/report/generateReport.js "Full_Master_E2E_Test_Report"
       - uses: actions/upload-artifact@v4
         with:
-          name: full-e2e-report
+          name: master-e2e-report
           path: e2e/report/Full_Master_E2E_Test_Report_*.xlsx
-
